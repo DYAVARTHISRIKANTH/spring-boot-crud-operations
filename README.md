@@ -37,3 +37,35 @@ This is a Spring Boot application demonstrating CRUD operations.
 
 ## Accessing the Application
 Once the application starts, it can be accessed at `http://localhost:8080`.
+
+### Sample Requests
+
+**1. Hello World (GET):**
+```http
+GET http://localhost:8080/hello
+```
+
+**2. User Login (POST):**
+```http
+POST http://localhost:8080/api/login
+```
+
+**3. User Registration (POST):**
+```http
+POST http://localhost:8080/api/register
+```
+
+**4. Get All Users (GET):**
+```http
+GET http://localhost:8080/api/users
+```
+
+**5. Update User (PUT):**
+```http
+PUT http://localhost:8080/api/users/{id}
+```
+
+**6. Delete User (DELETE):**
+```http
+DELETE http://localhost:8080/api/users/{id}
+```
